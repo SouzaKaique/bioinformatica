@@ -1,5 +1,5 @@
 
-# 🧬 Bioinformática na Prática
+# 🧬 Bioinformática na Prática! - Usando Google Gemini
 
 Bem-vindo(a) à minha aplicação de **Bioinformática na Prática**! 🌱🧑‍🔬
 
@@ -18,6 +18,7 @@ Esta aplicação foi criada para quem é fascinado por bioinformática e quer de
 - **JavaScript**: Toda a mágica da pesquisa e navegação. Os resultados são gerados dinamicamente e exibidos na tela com base na sua pesquisa.
 - **JSON (dados.js)**: Os dados de bioinformática que você pesquisa estão aqui.
 - **Imagens**: Adiciona um toque visual usando ícones para home, busca, etc.
+- **Google Gemini**: Utiliza da IA Google para contribuir positivamente ao projeto.
 
 ## 📝 Como Funciona?
 
