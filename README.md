@@ -38,7 +38,7 @@ Esta aplicação foi criada para quem é fascinado por bioinformática e quer de
 
 1. Copie e cole a seguinte url:
 
-https://bioinformatica.vercel.app/
+ https://bioinformatica.vercel.app/
 
 **Pronto! Agora você já pode explorar a bioinformática de forma prática e divertida.** 🎉
 
