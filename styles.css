@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+body {
+    font-family: "SUSE", sans-serif; 
+    background-image: url(https://img.freepik.com/fotos-gratis/detalhe-da-planta-de-arroz-ao-por-do-sol-em-valencia-com-a-plantacao-fora-de-foco-graos-de-arroz-na-semente-da-planta_181624-25838.jpg?t=st=1725632945~exp=1725636545~hmac=d4ae9d608373b0207ca89b92f0244128337c846b537a7cd438117fb3afa4e330&w=1380);
+    background-size: cover;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1 {
+    font-size: 2.5rem; 
+    color: #6B8E23; 
+    text-align: center; 
+    letter-spacing: 0.11rem; 
+}
+
+section {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin-bottom: 3rem;
+}
+
+section input {
+    width: 30rem; 
+    border: none; 
+    padding: 1rem; 
+    border-radius: 1.5rem; 
+    margin-bottom: 1rem; 
+    color: #45474B; 
+    font-size: 1rem; 
+    box-sizing: border-box; 
+}
+
+section button {
+    padding: 0.8rem 1.2rem; 
+    border: none; 
+    border-radius: 1.5rem; 
+    background-color: 	#556B2F; 
+    color: #F5F7F8; 
+    font-size: 1rem; 
+    cursor: pointer; 
+}
+
+button { 
+    display: flex;
+    align-items: center;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+button img { 
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.home-button { 
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 5px;
+    align-items: center;
+    display: flex;
+    z-index: 1000;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    
+}
+
+.home-button::before {
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background-color: transparent;
+    border-radius: 50%; 
+    z-index: -1; 
+}
+
+.home-button img { 
+    width: 32px;
+    height: auto;
+    display: block;
+}
+
+.resultados-pesquisa {
+    width: 60rem; 
+    height: 46vh; 
+    overflow-y: auto; 
+    margin-top: 1rem; 
+    padding: 1rem; 
+    border-radius: 0.6rem; 
+}
+
+.item-resultado {
+    background: rgb(255, 255, 255, 0.9);
+    border-radius: 0.6rem; 
+    padding: 1rem; 
+    margin-bottom: 1rem; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.item-resultado h2 {
+    font-size: 1.5rem; 
+    color: #6B8E23; 
+}
+
+.item-resultado a {
+    text-decoration: none; 
+    color: #6B8E23; 
+}
+
+.item-resultado a:hover {
+    text-decoration: underline; 
+}
+
+.descricao-meta {
+    color: #45474B; 
+    margin: 0.5rem 0; 
+}
+
+footer {
+    background-color: transparent;
+    color: #F5F7F8;
+    text-align: center; 
+    padding: 0; 
+    width: 100%; 
+    position: absolute; 
+    bottom: 0; 
+    font-size: 1rem;
+}
+
+.resultados-pesquisa { 
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    width: 60rem;
+    height: 46vh;
+    overflow-y: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 0rem;
+}
+
+.resultados-pesquisa.show { 
+    opacity: 1;
+}
+
+.resultados-pesquisa.hide { 
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+
+p { 
+    color: white;
+}
+

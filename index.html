@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link para o arquivo de estilo CSS -->
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Bioinformática</title>
+    <link rel="shortcut icon" href="IMG/dna.png"/>
+  </head>
+  <body>
+    <a href="javascript:void(0)" class="home-button" onclick="voltarHome()">
+      <img src="IMG/home2.png" alt="Home" />
+    </a>
+    <header>
+      <!-- Cabeçalho da página -->
+      <h1>Bioinformática na Prática</h1>
+    </header>
+    <main>
+      <section>
+        <!-- Campo de entrada de texto para pesquisa -->
+        <input
+          type="text"
+          placeholder="Digite a área de interesse"
+          id="campo-pesquisa"
+        />
+        <!-- Botão que chama a função 'pesquisar' quando clicado -->
+        <button onclick="pesquisar()">
+          <img
+            src="IMG/pesquisa.png"
+            alt="Buscar"
+            style="width: 24px; height: 24px"
+          />Buscar
+        </button>
+      </section>
+      <!-- Seção onde os resultados da pesquisa serão exibidos -->
+      <section class="resultados-pesquisa" id="resultados-pesquisa">
+        <!-- <div class="item-resultado"> 
+                <h2>Melhoramento Genético</h2>
+            <p class="descricao-meta">Através da análise bioinformática, é possível identificar genes-alvo para edição genética usando tecnologias como CRISPR, permitindo o desenvolvimento de plantas com características específicas.</p>
+            <a href="https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2018.00985/full" target="_blank">Saiba mais</a>
+            </div> 
+            
+             <div class="item-resultado">
+                 <h2>Banco de Dados Biológicos</h2>
+            <p class="descricao-meta">Um banco de dados de estruturas tridimensionais de proteínas e ácidos nucleicos. Esses dados são fundamentais para entender a função molecular e o design de medicamentos.</p>
+            <a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0776-9" target="_blank">Saiba mais</a>
+            </div> 
+
+            <div class="item-resultado">
+               <h2>Gerenciamento de Clima e Solo</h2>
+            <p class="descricao-meta">Predição de Impactos Climáticos: Ferramentas bioinformáticas ajudam a prever como as mudanças climáticas podem afetar a produção agrícola e quais estratégias podem ser implementadas para mitigar esses impactos.</p>
+            <a href="https://agroadvance.com.br/blog-impactos-das-mudancas-climaticas-no-agro/" target="_blank">Saiba mais</a>
+            </div> 
+
+            <div class="item-resultado"> 
+                 <h2>Algoritmos e Ferramentas Computacionais</h2>
+            <p class="descricao-meta">A bioinformática utiliza vários algoritmos para realizar análises, como o algoritmo BLAST para comparação de sequências, e métodos de machine learning para prever interações proteína-proteína.</p>
+            <a href="https://www.onlinebioinfo.dcc.ufmg.br/algoritmos-para-bioinform%C3%A1tica" target="_blank">Saiba mais</a>
+            </div> 
+
+             <div class="item-resultado"> 
+                 <h2>Medicina de Precisão</h2>
+            <p class="descricao-meta">A bioinformática é fundamental para a medicina de precisão, onde tratamentos são adaptados ao perfil genético do paciente. Isso envolve a análise de grandes volumes de dados genômicos para identificar mutações específicas que podem ser alvos terapêuticos.</p>
+            <a href="https://portal.fiocruz.br/noticia/brasil-e-china-debatem-bioinformatica-e-medicina-de-precisao" target="_blank">Saiba mais</a>
+            </div>   -->
+      </section>
+    </main>
+    <!-- Rodapé da página -->
+    <footer>
+      <p>2024 - Bioinformática | Todos os direitos reservados</p>
+    </footer>
+    <!-- Inclusão dos scripts JavaScript -->
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
