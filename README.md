@@ -43,8 +43,6 @@ Esta aplicação foi criada para quem é fascinado por bioinformática e quer de
 
 ---
 
----
-
-Feito com 💻 e 🧠 por Kaique.
+Feito com 💻 e 🧠, por Kaique.
 
 --- 
